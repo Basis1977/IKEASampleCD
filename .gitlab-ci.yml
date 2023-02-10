@@ -3,6 +3,7 @@ image: openjdk:11.0.16-jdk
 stages:
   - test
   - deploy
+  - prod
 
 before_script:
   - PATH=/opt/apache-maven-3.8.6/bin:/usr/local/openjdk-11/bin:$PATH
