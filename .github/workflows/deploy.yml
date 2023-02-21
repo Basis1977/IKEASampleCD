@@ -2,8 +2,8 @@ name: deploy
 on:
   push:
     branches:
-      - main
-      - master
+      #- main
+      #- master
 
 jobs:
   run-unit-tests:
