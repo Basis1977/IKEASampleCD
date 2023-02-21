@@ -19,7 +19,7 @@ jobs:
              #chmod +x "${GITHUB_WORKSPACE}/../test.sh"
              echo ${GITHUB_WORKSPACE}
              chmod +x "./test.sh"
-             #${GITHUB_WORKSPACE}/../test.sh
+             ${GITHUB_WORKSPACE}/test.sh
              ./test.sh
           #./test.sh
 
