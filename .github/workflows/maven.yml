@@ -16,8 +16,10 @@ jobs:
     - name: Set up JDK 11
       run: |
       
-             chmod +x "${GITHUB_WORKSPACE}/../test.sh"
-             ${GITHUB_WORKSPACE}/../test.sh
+             #chmod +x "${GITHUB_WORKSPACE}/../test.sh"
+             chmod +x "./test.sh"
+             #${GITHUB_WORKSPACE}/../test.sh
+             ./test.sh
           #./test.sh
 
 
